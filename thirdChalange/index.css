@@ -1,0 +1,42 @@
+.card {
+    background-color: rgb(37, 38, 38);   
+    max-width: 250px;
+    padding: 20px;
+    margin: auto;
+    color: white;
+}
+
+
+.card-thumbnail img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card-avatar img {
+    width: 60px;
+    height: 60px;
+}
+
+.card-body {
+    display: flex;
+}
+
+.card-stats {
+    display: flex;
+    padding: 0;
+}
+
+.card-stats li {
+    padding: 1px 10px; 
+    margin-right: 2Opx;
+}
+
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
