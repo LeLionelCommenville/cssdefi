@@ -1,0 +1,36 @@
+:root {
+    --color-light: lightgray;
+    --color-dark: darkgray;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: loading;    
+}
+
+@keyframes loading {
+    from {
+        font-size: 10px;
+        height: 10px;
+        width: 10px;
+        color: black;
+    } to {
+        height: 40px;
+        width: 40px;
+        font-size: 40px;
+        color: rgba(255, 255, 255, 0.905);
+    }
+}
